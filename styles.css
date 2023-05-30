@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    /* margem fora dai fica tudo colado e a gente escolhe o tamanho das margens*/
+    padding: 0;
+    /* margem dentro fica zerada e a gente escolhe o tamanho*/
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    /* diplay determina como os elementos aparecerão na tela */
+    justify-content: center;
+    /* justificado */
+    align-items: center;
+    /* alinha a nível vertical */
+    height: 100vh;
+    /* altura 100vh é a tela inteira*/
+    width: 100vw;
+    /* largura 100 vw é a tela inteira*/
+    background-image: url("https://source.unsplash.com/1600x900/?landscape")
+}
+
+.caixamaior {
+    background-color: #000000;     /* cor de fundo da caixa grande */
+    width: 90%;     /* largura da caixa */
+    max-width: 430px; /*largura máxima que pode ficar, dai se adapta a tela que vc estiver usando*/
+    opacity: 0.7;
+    padding: 20px;
+    border-radius: 25px;
+
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    /* pra deixar ele arredondado nas bordas*/
+    background-color: #7c7c7c5b;
+    float: right;
+    /* flutuar, pra jogar ele pra direita*/
+    cursor: pointer;
+    /* quando o mouse passar em cima do button ele via ficar uma maozinha*/
+}
+
+button:hover {
+    /* isso é pra mudar a cor quando o mouse passa em cima*/
+    background-color: #7c7c7c9b;
+    /* aqui a gente escolhe que cor vai ficar quando o mouse passa por cima, mais claro*/
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;     /*cor do texto que a gente escreve dentro do input*/
+    width: calc(100% - 100px);
+}
+
+.lupa {
+    height: 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 28px;
+    /* tamanho do texto*/
+}
+
+.tempi {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 20px;
+    /* tamanho do texto*/
+}
+
+.descricao {
+    color: #ffffff;
+    margin-top: 20px;
+    text-transform: capitalize;/* captaliza, deixa a primeira letra Maiúscula de todas as palavras*/
+    margin-left: 15px;
+}
+
+.umidade {
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.caixa-media {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.icone {
+    margin-top: 20px;
+    height: 40px;
+}
+.caixa-menor {
+    display: flex;
+    align-items: center;
+}
+
+.tempmi {
+    color: white;
+    font-size: 12px;
+    /* tamanho do texto*/
+    margin-top: 10px;
+}
+.tempma {
+    color: white;
+    font-size: 12px;
+    /* tamanho do texto*/
+    margin-top: 10px;
+}
