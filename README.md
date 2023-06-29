@@ -6,7 +6,7 @@
 
 - HTML
 - CSS
-- JS
+- JS com API
 
 
 ## :rocket: Visite o site (projeto publicado):
